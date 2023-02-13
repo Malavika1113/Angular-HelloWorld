@@ -24,3 +24,7 @@ jobs:
     - name: Build
       run: ng build
               
+    - name: Deploy
+      run: |
+         ng add angular-cli-ghpages
+         ng deploy --base-href=https://Malavika1113.github.io/Angular-HelloWorld/
